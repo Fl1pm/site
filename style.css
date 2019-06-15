@@ -1,0 +1,17 @@
+.slider{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#main {
+    width: 60vw;
+    border: 1px solid rgb(77, 75, 75);
+}
+
+#right {
+    width: 10vw;
+}
+#left {
+    width: 10vw;
+}
