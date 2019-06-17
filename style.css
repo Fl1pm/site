@@ -15,3 +15,21 @@
 #left {
     width: 10vw;
 }
+
+/*
+
+.hide {
+    display: none;
+}
+
+*/
+
+[class="block"] {
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+h3{
+    text-align: center;
+}

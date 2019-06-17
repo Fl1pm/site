@@ -33,3 +33,29 @@ right.addEventListener("click", switch_right, false);
 /* добавление функции на клик */
 let left = document.getElementById('left');
 left.addEventListener("click", switch_left, false);
+
+/*--------------------*/
+
+let array = document.querySelectorAll(".hide");
+
+for (var u = 0; u < array.length; u++) {
+    array[u].style.display = 'none'
+};
+
+let event1 = document.querySelectorAll("h3");
+for (var u = 0; u < event1.length; u++) {
+    event1[u].addEventListener("click", function (e){
+        let li = e.target.parentElement;
+        div = li.querySelector('div')
+    
+
+
+let array = document.querySelectorAll(".hide");
+
+for (var u = 0; u < array.length; u++) {
+    array[u].style.display = 'none';
+};
+
+    div.style.display = 'block';
+})
+};
